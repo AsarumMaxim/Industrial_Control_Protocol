@@ -67,6 +67,7 @@ The master sends data with function code 03, indicating that it wants to read th
 | ----------- | -------------------------- | -------------------------- | ----------------------- | ----------------------- |
 | **Length**  | 8bit                       | 8bit                       | 8bit                     | 8bit                     |
 | **Example** | 0x00                       | 0x32                       | 0x00                     | 0x03                     |
+
 **Slave replies data part**:
 The slave sends data with function code 03, indicating that the total data read is 6 bytes, which are 0x00, 0x01, 0x00, 0x02, 0x00, 0x03, i.e., the data read from the 3 registers is 0x0001, 0x0002, 0x0003.
 
@@ -194,7 +195,8 @@ Modbus ASCII (American Standard Code for Information Interchange) message format
 |---|---|---|---|---|---|---|
 |**Length**|1 ASCII character|2 ASCII characters|2 ASCII characters|Variable (0-504 ASCII characters, should be an even number)|2 ASCII characters|2 ASCII characters|
 |**Description**|Begins with a colon (":") character, represented in ASCII code as 0x3A|Each slave has a unique address. The address range is from 0 to 247. Address 0 is the broadcast address, sending messages to all slaves, but slaves will not respond to broadcast messages.|Used to specify the type of operation the master requires the slave to perform.|The length of the data part is variable, containing the specific parameters of the command, the exact format and length depend on the function code.|Used to check if there is an error in the data during transmission.|Each message ends with a carriage return and line feed character (CR LF, ASCII code 0x0D and 0x0A)|
-|In ASCII mode, each character occupies 10 bits, and the character format is as follows:|||||||
+
+In ASCII mode, each character occupies 10 bits, and the character format is as follows:
 
 |**Purpose**|Start Bit|Data Bits|Parity Bit|Stop Bit|
 |---|---|---|---|---|
