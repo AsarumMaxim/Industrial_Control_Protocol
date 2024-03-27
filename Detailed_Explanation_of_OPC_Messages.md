@@ -1,3 +1,8 @@
+[ä¸­æ–‡ç‰ˆ](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/OPC%E6%8A%A5%E6%96%87%E8%AF%A6%E8%A7%A3.md)
+[English](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/Detailed_Explanation_of_OPC_Messages.md)
+
+This article was translated by ChatGPT.
+
 OPC (OLE for Process Control) is a standard for industrial communication protocols, facilitating data exchange between devices and systems from different manufacturers. It is primarily used in industrial automation systems. The OPC standard encompasses several specifications, including OPC DA (Data Access), OPC UA (Unified Architecture), OPC HDA (Historical Data Access), and more.
 
 This article focuses on the message formats of OPC UA over TCP and OPC UA Secure Conversation.
@@ -24,7 +29,7 @@ The message header structure is as follows:
 | **Purpose** | Message Type | Reserved Section | Message Size |
 | ----------- | ------------ | ---------------- | ------------ |
 | **Length**  | 3 byte       | 1 byte           | 4 byte       |
-| **Description** | Identifies the message type | Set to ASCII code ¡°F¡± for OPC UA link protocol supported values | Total length of the message header + body in bytes |
+| **Description** | Identifies the message type | Set to ASCII code Â¡Â°FÂ¡Â± for OPC UA link protocol supported values | Total length of the message header + body in bytes |
 
 Message types are divided into four categories:
 - HEL: Indicates the body is a Hello message
@@ -69,7 +74,7 @@ The Acknowledge message provides the basic parameters needed for communication b
 
 Error codes are updated with version releases. Here's a link to the current version (UA-1.05.03-2023-12-15) error code list on the [official GitHub](https://github.com/OPCFoundation/UA-Nodeset/blob/UA-1.05.03-2023-12-15/Schema/StatusCode.csv).
 
-| **´íÎóÃû**                                                         | **´íÎóÂë**    |
+| **Â´Ã­ÃŽÃ³ÃƒÃ»**                                                         | **Â´Ã­ÃŽÃ³Ã‚Ã«**    |
 | --------------------------------------------------------------- | ---------- |
 | Good                                                            | 0x00000000 |
 | Uncertain                                                       | 0x40000000 |
@@ -385,7 +390,7 @@ Defined values are:
 - F: Final chunk.
 - A: Final chunk (used when an error occurs, and the message is aborted).
 
-This field is only meaningful for messages of type MSG. For other message types, this field is always ¡°F¡±.
+This field is only meaningful for messages of type MSG. For other message types, this field is always Â¡Â°FÂ¡Â±.
 
 #### 2.2.1.3 Message Size
 The length from the start of the message header, in bytes
