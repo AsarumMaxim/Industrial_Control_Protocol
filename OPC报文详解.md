@@ -1,3 +1,6 @@
+[中文版](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/OPC%E6%8A%A5%E6%96%87%E8%AF%A6%E8%A7%A3.md)
+[English](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/Detailed_Explanation_of_OPC_Messages.md)
+
 OPC (OLE for Process Control) 是一种工业通讯协议的标准，用于实现不同制造商的设备和系统之间的数据交换。它主要用于工业自动化系统中。OPC标准有几个不同的规范，包括OPC DA (Data Access)、OPC UA (Unified Architecture)、OPC HDA (Historical Data Access) 等。
 
 本文主要介绍 OPC UA over TCP、OPC UA Secure Conversation的报文格式。
