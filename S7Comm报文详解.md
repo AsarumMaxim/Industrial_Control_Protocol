@@ -1,3 +1,7 @@
+[中文版](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/S7Comm%E6%8A%A5%E6%96%87%E8%AF%A6%E8%A7%A3.md)
+[English](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/Detailed_Explanation_of_S7Comm.md)
+
+
 S7协议是西门子公司为其S7系列PLC（可编程逻辑控制器）通信而设计的一种专用协议。S7协议主要用于西门子PLC之间的通信，以及PLC与其他设备的通信。该协议支持多种通信方式，如MPI（多点接口）、PROFIBUS和Industrial Ethernet等。S7协议的报文结构相对复杂，可分为多个层次。
 # 1. 简介
 对比OSI参考模型的话，一层到四层（即物理层、数据链路层、网络层、传输层）与常规的TCP/IP通信相同，这里不在赘述。第五层（会话层）通过S7的TPKT实现，六层（表示层）通过COTP实现，S7Comm则于第七层（应用层）。
