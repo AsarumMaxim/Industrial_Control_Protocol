@@ -1,4 +1,4 @@
-Here's the translated article with preserved Markdown format:
+
 
 The S7 protocol is a proprietary protocol designed by Siemens for communication with its S7 series PLCs (Programmable Logic Controllers). The S7 protocol is mainly used for communication between Siemens PLCs and between PLCs and other devices. This protocol supports various modes of communication, such as MPI (Multi-Point Interface), PROFIBUS, and Industrial Ethernet, etc. The message structure of the S7 protocol is relatively complex and can be divided into multiple layers.
 
@@ -104,7 +104,7 @@ The message format for responding to a request is the same as the request messag
 S7 header message type 0x01- Job Request, the function code is 0x04. The request part only has a parameter part, no data part.
 
 
-| **Purpose** | Function Code | Item Count | Item 1 | Item 2 | ¡­ | Item n |
+| **Purpose** | Function Code | Item Count | Item 1 | Item 2 | Â¡Â­ | Item n |
 | ----------- | ------------ | ---------- | ------ | ------ | - | ------ |
 | **Length** | 1 byte | 1 byte | | | | |
 | **Description** | 0x04 | | | | | |
