@@ -1,4 +1,7 @@
+[中文版](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/S7Comm%E6%8A%A5%E6%96%87%E8%AF%A6%E8%A7%A3.md)
+[English](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/Detailed_Explanation_of_S7Comm.md)
 
+This article was translated by ChatGPT.
 
 The S7 protocol is a proprietary protocol designed by Siemens for communication with its S7 series PLCs (Programmable Logic Controllers). The S7 protocol is mainly used for communication between Siemens PLCs and between PLCs and other devices. This protocol supports various modes of communication, such as MPI (Multi-Point Interface), PROFIBUS, and Industrial Ethernet, etc. The message structure of the S7 protocol is relatively complex and can be divided into multiple layers.
 
