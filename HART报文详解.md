@@ -1,3 +1,5 @@
+[中文版](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/HART%E6%8A%A5%E6%96%87%E8%AF%A6%E8%A7%A3.md)
+[English](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/Detailed_Explanation_of_HART_Messages.md)
 # 1.简介
 HART（Highway Addressable Remote Transducer可寻址远程传感器高速通道）协议，主要用于工业自动化领域的通信协议，专为发送和接收数字信息而设计，同时也支持模拟信号（如4-20 mA信号）的传输。这种设计使得HART设备能够同时传输模拟信号和数字数据，从而提供了更加灵活和强大的通信能力。
 
