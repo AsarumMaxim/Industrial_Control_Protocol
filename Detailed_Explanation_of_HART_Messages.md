@@ -1,3 +1,8 @@
+[中文版](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/HART%E6%8A%A5%E6%96%87%E8%AF%A6%E8%A7%A3.md)
+[English](https://github.com/AsarumMaxim/Industrial_Control_Protocol/blob/main/Detailed_Explanation_of_HART_Messages.md)
+
+This article was translated by ChatGPT.
+
 # 1. Introduction
 The HART (Highway Addressable Remote Transducer) protocol is primarily used in the field of industrial automation communication. It is designed to send and receive digital information while also supporting the transmission of analog signals (such as 4-20 mA signals). This design allows HART devices to transmit both analog signals and digital data simultaneously, providing more flexible and powerful communication capabilities.
 
